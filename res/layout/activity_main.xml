@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:id="@+id/mylayout"
+     >     
+    
+    <EditText
+        android:id="@+id/name"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="textCapWords"
+        android:hint="@string/name" />
+    <EditText
+        android:id="@+id/date"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:focusable="false" 
+        android:onClick="selectDate"
+        android:inputType="date"
+        android:hint="@string/date" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:text="@string/spinner_text" />
+    <Spinner
+        android:id="@+id/gender_spinner"
+        android:spinnerMode="dialog"
+        android:prompt="@string/gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/gender_array" />
+    <EditText
+        android:id="@+id/position"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="textCapSentences"
+        android:hint="@string/position" />
+    <EditText
+        android:id="@+id/salary"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="number"
+        android:hint="@string/salary" />
+    <EditText
+        android:id="@+id/phone"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="phone"
+        android:hint="@string/phone" />
+    <EditText
+        android:id="@+id/email"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="textEmailAddress"
+        android:hint="@string/email" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/button_send"
+        android:onClick="sendResume" />
+    <TextView
+        android:id="@+id/visibleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/visibleResponse"
+        android:visibility="invisible"
+        android:textSize="20sp" />
+
+  </LinearLayout>

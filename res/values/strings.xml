@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Отправка резюме</string>
+    <string name="name">ФИО</string>
+    <string name="button_send">Отправить резюме</string>
+    <string name="date">Дата рождения</string>
+    <string name="gender">Пол</string>
+    <string name="position">Должность</string>
+    <string name="salary">Уровень зарплаты</string>
+    <string name="phone">Номер телефона</string>
+    <string name="spinner_text">Пол:</string>
+    <string name="email">Электронная почта</string>
+    <string name="action_settings">Настройки</string>
+    <string name="visibleResponse">Ответы работодателя на Ваше резюме:</string>
+    <string name="title_activity_main">Отправка резюме</string>
+
+    <string-array name="gender_array">
+        <item>Мужской</item>
+        <item>Женский</item>
+    </string-array>
+
+    <string name="title_activity_display_message">Резюме соискателя</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="letter">Письмо соискателю</string>
+    <string name="response">Отправить ответ</string>
+
+</resources>

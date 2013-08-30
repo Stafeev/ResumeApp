@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    tools:context=".DisplayMessageActivity" >
+
+    <TextView
+        android:id="@+id/candidate_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/candidate_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/candidate_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/candidate_position"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/candidate_salary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/candidate_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/candidate_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" />
+    <EditText
+        android:id="@+id/letter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lines="5"
+        android:gravity="top|left"
+        android:inputType="textMultiLine"
+        android:scrollHorizontally="false"
+        android:hint="@string/letter" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/response"
+        android:onClick="sendMessage" />
+
+</LinearLayout>
