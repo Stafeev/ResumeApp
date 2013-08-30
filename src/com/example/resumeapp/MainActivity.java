@@ -4,7 +4,8 @@ package com.example.resumeapp;
 
 import java.util.Calendar;
 
-import com.example.myfirstapp.R;
+import com.example.resumeapp.R;
+
 import android.app.DatePickerDialog;
 import android.app.Dialog;
 import android.content.Intent;

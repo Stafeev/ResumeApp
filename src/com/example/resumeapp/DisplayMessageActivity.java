@@ -1,6 +1,6 @@
 package com.example.resumeapp;
 
-import com.example.myfirstapp.R;
+import com.example.resumeapp.R;
 
 import android.os.Bundle;
 import android.app.Activity;
